@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <group  android:checkableBehavior="single">
+            <item android:id="@+id/dashboard"
+                android:title="@string/dashboard"
+                android:icon="@drawable/dashboard">
+            </item>
+            <item android:id="@+id/Language"
+                android:title="@string/language"
+                android:icon="@drawable/language_icon">
+            </item>
+            <item android:id="@+id/share"
+                android:title="@string/share"
+                android:icon="@drawable/share_icon">
+            </item>
+            <item android:id="@+id/logout"
+                android:title="@string/logout"
+                android:icon="@drawable/logout">
+            </item>
+
+
+
+        </group>
+</menu>

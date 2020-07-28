@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEA05F"
+    tools:context=".SplashActivity">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="320dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:id="@+id/sp_img_1"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/iot"/>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:id="@+id/sp_img_2"
+        android:layout_marginTop="30dp"
+        android:layout_height="100dp"
+        android:src="@drawable/sewage"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="25dp"
+        android:text="@string/spalsh_topic"
+        android:id="@+id/splash1"
+        android:textAlignment="center"
+        android:textSize="23sp"
+        android:textAllCaps="true"
+        android:fontFamily="@font/montserrat"
+        android:textColor="#000"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:text="@string/save_your_life"
+        android:id="@+id/splash2"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textAllCaps="true"
+        android:fontFamily="@font/montserrat"
+        android:textColor="#000"
+        android:layout_height="wrap_content"/>
+  </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

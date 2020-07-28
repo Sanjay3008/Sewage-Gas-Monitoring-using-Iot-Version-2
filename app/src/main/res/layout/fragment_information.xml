@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#DBEBEA"
+    tools:context=".information">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/montserrat"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:text="@string/gas_safety_limit"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:padding="15dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/methane_limits"
+                android:textColor="#000"
+                android:textSize="21sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:text="@string/co2_limits"
+                android:textColor="#000"
+                android:textSize="21sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:text="@string/co_limits"
+                android:textColor="#000"
+                android:textSize="21sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:text="@string/h2s_limits"
+                android:textColor="#000"
+                android:textSize="21sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:text="@string/ammonia_limits"
+                android:textColor="#000"
+                android:textSize="21sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/montserrat"
+                android:textColor="#000"
+                android:textSize="21sp"
+                android:text="@string/dash"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="25dp"
+                    android:fontFamily="@font/montserrat"
+                    android:layout_height="25dp"
+                    android:layout_marginStart="30dp"
+                    android:background="#1B07DB"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat"
+                    android:textAlignment="center"
+                    android:textSize="15sp"
+                    android:layout_marginTop="2dp"
+                    android:padding="5dp"
+                    android:textColor="#000"
+                    android:text="@string/mild"/>
+                <TextView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginStart="30dp"
+                    android:fontFamily="@font/montserrat"
+                    android:background="#07F207"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat"
+                    android:textSize="15sp"
+                    android:textAlignment="center"
+                    android:layout_marginTop="2dp"
+                    android:padding="6dp"
+                    android:textColor="#000"
+                    android:text="@string/medium"/>
+                <TextView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginStart="30dp"
+                    android:fontFamily="@font/montserrat"
+                    android:background="#F30E1D"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:fontFamily="@font/montserrat"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_marginTop="2dp"
+                    android:padding="6dp"
+                    android:textColor="#000"
+                    android:textAlignment="center"
+                    android:text="@string/high"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

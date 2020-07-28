@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "1016172297246",
+    "firebase_url": "https://iot-manhole-entry-gas-detectio.firebaseio.com",
+    "project_id": "iot-manhole-entry-gas-detectio",
+    "storage_bucket": "iot-manhole-entry-gas-detectio.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1016172297246:android:4ea8f701ab93c20f88c20f",
+        "android_client_info": {
+          "package_name": "com.example.iot_manholeentry_gasdetection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1016172297246-6rna79kt3hdpu75jp4bfguluma1v2ml8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.iot_manholeentry_gasdetection",
+            "certificate_hash": "04971f1674b257549a0e3dd19eaea1252bf2ceb1"
+          }
+        },
+        {
+          "client_id": "1016172297246-c2v1ul2rcnnuq1gbpunf54lpm2f1dd8k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-HG1RHCn92dU-PGHpVqJz-CgzfpEJgUc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1016172297246-c2v1ul2rcnnuq1gbpunf54lpm2f1dd8k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1016172297246:android:9852ebd45209314d88c20f",
+        "android_client_info": {
+          "package_name": "com.example.iotsewagegas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1016172297246-77m5nuqs7der2n7brfqqk1pr4uqmp7qf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.iotsewagegas",
+            "certificate_hash": "cbe9a0cfe7e1e9bf4f8d389dea6b0549f5c31373"
+          }
+        },
+        {
+          "client_id": "1016172297246-c2v1ul2rcnnuq1gbpunf54lpm2f1dd8k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-HG1RHCn92dU-PGHpVqJz-CgzfpEJgUc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1016172297246-c2v1ul2rcnnuq1gbpunf54lpm2f1dd8k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

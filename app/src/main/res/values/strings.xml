@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">IotSewageGas</string>
+    <string name="sewage_gas_monitoring">Sewage Gas Monitoring</string>
+    <string name="spalsh_topic">Sewage Gas Monitoring</string>
+    <string name="monitoring">Monitoring</string>
+    <string name="sewage_gas">Sewage Gas</string>
+    <string name="language">Language</string>
+    <string name="profile">Profile</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="logout">Logout</string>
+    <string name="share">Share</string>
+    <string name="gas">GAS</string>
+    <string name="measurement">MEASUREMENT</string>
+    <string name="concentration">CONCENTRATION</string>
+    <string name="carbon">CARBON</string>
+    <string name="dioxide">DIOXIDE</string>
+    <string name="methane">METHANE</string>
+    <string name="monoxide">MONOXIDE</string>
+    <string name="sulphide">SULPHIDE</string>
+    <string name="hydrogen">HYDROGEN</string>
+    <string name="ammonia">AMMONIA</string>
+    <string name="variation">VARIATION</string>
+    <string name="information">INFORMATION</string>
+    <string name="gas_safety_limit">GAS SAFETY LIMIT</string>
+    <string name="methane_limits">1.The safety Limit of Methane gas is 1000ppm</string>
+    <string name="co2_limits">2.The safety Limit of Carbondioxide gas is 5000ppm</string>
+    <string name="co_limits">3.The safety Limit of Carbon monoixde gas is 50ppm</string>
+    <string name="h2s_limits">4.The safety Limit of Hydrogen Sulphide gas is 60ppm</string>
+    <string name="ammonia_limits">5.The safety Limit of Ammonia gas is 100ppm</string>
+    <string name="dash">Gas Level Indicators</string>
+    <string name="mild">MILD</string>
+    <string name="medium">MEDIUM</string>
+    <string name="high">HIGH</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="all_life_matters">All life matters</string>
+    <string name="sewage_gas_monitoring_splash">Sewage Gas Monitoring</string>
+    <string name="save_your_life">Save Your Life  !!!</string>
+    <string name="save_your_life_splash">Save Your Life  !!!</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="enter_your_mail">Enter your Mail</string>
+    <string name="register">Register</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="login">Login</string>
+    <string name="not_registered_click_to_register">Not Registered ? Click to Register</string>
+    <string name="ppm">ppm</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="carbon_monoxide_variation">Carbon Monoxide Concentration Variation Graph</string>
+    <string name="carbon_dioxide_variation">Carbon Dioxide Concentration Variation Graph</string>
+    <string name="ammonia_variation">Ammonia Concentration Variation Graph</string>
+    <string name="methane_variation">Methane Concentration Variation Graph</string>
+    <string name="hydrogen_sulphide_variation">Hydrogen Sulphide Concentration Variation Graph</string>
+    <string name="concentration_in_ppm">Concentration in PPM</string>
+</resources>

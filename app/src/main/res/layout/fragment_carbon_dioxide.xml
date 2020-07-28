@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CarbonDioxide">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/carbon_dioxide_variation"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:fontFamily="@font/montserrat"/>
+    <ProgressBar
+        android:layout_width="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/prog_co2"
+        android:visibility="invisible"
+        android:layout_marginTop="150dp"
+        android:layout_height="50dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:text="@string/concentration_in_ppm"
+        android:textAllCaps="true"
+        android:layout_marginTop="200dp"
+        android:rotation="270"
+        android:layout_marginEnd="80dp"
+        android:textColor="#000000"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:fontFamily="@font/montserrat"/>
+    <com.github.mikephil.charting.charts.LineChart
+        android:layout_width="match_parent"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="70dp"
+        android:visibility="invisible"
+        android:id="@+id/linechart_carbondioxide"
+        android:rotation="0"
+        android:layout_height="700dp"/>
+
+</RelativeLayout>

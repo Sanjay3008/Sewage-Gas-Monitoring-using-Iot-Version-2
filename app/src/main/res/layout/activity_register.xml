@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/registerlayout"
+    android:background="#e7bba6"
+    tools:context=".RegisterActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:text="@string/sewage_gas_monitoring"
+        android:layout_marginTop="15dp"
+        android:textAllCaps="true"
+        android:textSize="23sp"
+        android:lineHeight="3dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/montserrat"
+        android:textColor="#603C8A"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:text="@string/register"
+        android:layout_marginTop="15dp"
+        android:textAllCaps="true"
+        android:textSize="23sp"
+        android:lineHeight="3dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/montserrat"
+        android:textColor="#603C8A"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/register" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:endIconMode="clear_text"
+        android:textColorHint="#5E5959"
+        app:boxStrokeColor="#534D4D"
+        android:layout_margin="8dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/email_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_your_mail"
+            android:fontFamily="@font/montserrat"
+            android:textSize="18sp"
+            android:inputType="textEmailAddress" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:endIconMode="password_toggle"
+        android:textColorHint="#5E5959"
+        app:boxStrokeColor="#534D4D"
+        android:layout_margin="8dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/pass_reg"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/montserrat"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_your_password"
+            android:textSize="18sp"
+            android:inputType="textPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="150dp"
+            android:backgroundTint="#CC7676"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/register"
+            android:textColor="#2C2C29"
+            android:textSize="13sp" />
+        <ProgressBar
+            android:layout_width="30dp"
+            android:layout_marginTop="8dp"
+            android:visibility="invisible"
+            android:id="@+id/progressbar1"
+            android:layout_height="30dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/gobacktologin"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="Already Registered? Click to Login"
+        android:fontFamily="@font/montserrat"
+        android:textColor="#2C2C29"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        android:backgroundTint="#D17A7A"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
