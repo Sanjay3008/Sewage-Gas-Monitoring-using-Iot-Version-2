@@ -1,6 +1,5 @@
 # Iot Sewage Gas Monitoring And Alert System
-This is the new version of the Iot Sewage Gas Monitoring App.An android application that provides the hazardous gaseous concentation and alert for sewage workers.This app supports
-three languages-Tamil,English and Hindi.The variation of these gases is displayed using graph.
+This is the new version of the Iot Sewage Gas Monitoring App. An android application that provides the hazardous gaseous concentration and alert for sewage workers. This app supports three languages-Tamil, English and Hindi. The variation of these gases is displayed using graphs.
 
 # App Images
 ![1 - Copy](https://user-images.githubusercontent.com/58475664/90335031-6e5d2f80-dfef-11ea-915e-fd59ab0b3f66.jpg)
