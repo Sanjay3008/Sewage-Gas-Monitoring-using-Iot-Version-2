@@ -19,7 +19,10 @@ Connect 5 and 6 pin of arduino to D5 and D6 pin of nodemcu.
 Remove the esp 8266 wifi module added in the circuit.
 Make changes to the code as per the connectio you follow for arduio and nodemcu
 
+# working
+![image](https://user-images.githubusercontent.com/58475664/111030426-32c10180-8428-11eb-9859-6f521d75e0f9.png) 
 
+![image](https://user-images.githubusercontent.com/58475664/111030451-5126fd00-8428-11eb-9f12-00b0f69cc6f4.png)
 
 
 
