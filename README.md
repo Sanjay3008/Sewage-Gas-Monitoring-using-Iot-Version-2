@@ -14,6 +14,12 @@ This is the new version of the Iot Sewage Gas Monitoring App. An android applica
 For App workig see the link below.
 https://user-images.githubusercontent.com/58475664/111030060-4703ff00-8426-11eb-9e65-4e009060ea95.mp4
 
+# Make the changes:
+Connect 5 and 6 pin of arduino to D5 and D6 pin of nodemcu.
+Remove the esp 8266 wifi module added in the circuit.
+Make changes to the code as per the connectio you follow for arduio and nodemcu
+
+
 
 
 
