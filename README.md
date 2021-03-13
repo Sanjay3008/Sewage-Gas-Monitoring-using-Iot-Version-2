@@ -11,7 +11,10 @@ This is the new version of the Iot Sewage Gas Monitoring App. An android applica
 ![6 - Copy](https://user-images.githubusercontent.com/58475664/90335041-787f2e00-dfef-11ea-80b0-f2dcec5e9401.jpg)
 
 # App Demonstration
-![final_604b36f9b0de4800cc20a708_764498 (1)](https://user-images.githubusercontent.com/58475664/111029806-b37dfe80-8424-11eb-88e4-c0ca9c6933a8.gif)
+For App workig see the link below.
+https://user-images.githubusercontent.com/58475664/111030060-4703ff00-8426-11eb-9e65-4e009060ea95.mp4
+
+
 
 
 
